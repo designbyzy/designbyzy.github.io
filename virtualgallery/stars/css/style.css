@@ -1,0 +1,19 @@
+body { margin: 0;
+      overflow: hidden;
+      display: flex;
+
+      /*aligns the sketch horizontally*/
+      justify-content: center;
+
+      /*aligns the sketch vertically*/
+      align-items: center;
+      background: black;
+          height: 100vh;
+ }
+
+ canvas {
+
+     border: 2px solid #fff; 
+/*     add border around canvas*/
+ }
+
