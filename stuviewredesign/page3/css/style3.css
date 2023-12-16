@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: blue;
+}
+
+#sidebar .mainLogo {
+  padding-top: 30px;
+  padding-left: 20px;
+    padding-bottom: 92px;
+    width: 90%;
+    height: 60px;
+/*    background-color: white;*/
+}
+
+.mainLogo{
+   display: flex;
+  align-items: center;
+
+}
+.mainLogo h2{
+   padding-top: 10px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+
+}
+.gbcImage {
+  padding-left: 20px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 381px;
+}
+
+#sidebar ul li {
+  margin: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+
+ #sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 381px;
+      height: 100vh;
+      background-color: blue;
+      }
+
+      #content {
+      margin-left: 400px;
+      padding: 20px;
+    }
+
+
+
+
+    
+
+#header {
+ border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 425px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    white-space: nowrap;
+}
+ #header h2 {
+  margin-right: 137px;
+ }
+/*the features in the header */
+#header li {
+  text-decoration: none;
+}
+h1.header {
+  float: left;
+}
+
+#userName {
+  float: right;
+  margin-top: -95px;
+}
+#header  h2 {
+    justify-content: right 300PX;
+/*    margin-right: 30px;*/
+  
+}
+#profilePhoto{
+float: left;
+/* display: block;*/
+margin-right: 30px;
+ border-radius: 50%
+
+}
+
+.leftBox {
+margin-left: 425px;
+  height: 620px;
+  width: 700px;
+  background: white;
+  border-radius: 25px;
+}
+
+.leftBoxHeader {
+padding-left: 55px;
+padding-top: 25px;
+/*width: 900px;*/
+}
+
+/*center teh italic words*/
+/*.leftBox .aboutPayment {
+  padding-left: 200px;
+  padding-right: 200px
+}*/
+.aboutPayment {
+  width: 424px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 168px;
+  padding-right: 195px;
+}
+
+.boxInfo {
+  margin-bottom: -5px;
+  margin-left:163px;
+  margin-top: -41px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+/*credit card information display are*/
+.leftCreditCardInfo{
+ margin-left: 55px;
+ width: 40%;
+
+}
+.leftCreditCardInfo h3 {
+ margin-bottom: -10px;
+
+}
+
+
+.leftCreditCardInfo h5 {
+padding-left: 10px;
+ width: 80%;
+margin-top: -8px;
+}
+
+/* boxes for the ledft side */
+.leftCreditCardInfo p {
+border: 2px solid black;
+padding: 15px;
+padding-left: 20px;
+border-radius: 15px;
+width: 70%;
+}
+
+.doubleInfo {
+ margin-top: -14px;
+ border: 2px solid black;
+padding: 15px;
+padding-left: 20px;
+
+}
+
+.rightCreditCardInfo{
+ margin-right: 100px;
+    margin-top: -389px;
+    margin-left: 420px;
+}
+
+.rightCreditCardInfo h3 {
+   margin-top: 40px;
+    
+}
+.gohtBox {
+  padding-top: %;
+}
+
+.rightCreditCardInfo p {
+border: 2px solid black;
+padding: 15px;
+margin-top: -15px;
+padding-left: 20px;
+border-radius: 15px;
+width: 70%;
+}
+
+.leftCreditCardInfo .rightCreditCardInfo{
+  display: inline-block;
+/*  display: inline-flex;*/
+  
+}
+
+
+
+.RightBox {
+margin-left: 1200px;
+margin-top: -620px;
+    height: 620px;
+    width: 450px;
+    background: white;
+  border-radius: 25px;
+  font-family: 'Source Sans Pro';
+}
+
+.rightBoxText h3{
+  
+  padding-top: 75px;
+
+}
+
+
+.top {
+    
+  padding-top: 30px;
+
+}
+
+.RightBox h2{
+    width: 350px;
+  text-align: left;
+  padding-left: 40px;
+
+}
+
+.RightBox h3{
+    width: 325px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 20px
+
+}
+
+.RightBox h3 h2{
+   padding-left: 75px;
+
+}
+.expanded {
+  font-weight: lighter;
+  margin-left: 35px;
+}
+
+
+.buttons{
+  margin-top: 20px;
+    margin-left: 425px;
+    width: 680px;
+/*    changed width*/
+    height: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: green;
+}
+
+.buttons  h2 {
+margin-left: 250px;
+/*changed margin*/
+width: 100px;
+text-decoration: none;
+/*changed to text decoration without style*/
+text-underline-offset: none;
+color: white;
+
+}
+.buttons  a {
+
+text-decoration: none;
+/*changed to text-decoration without style*/
+text-underline-offset: none;
+color: white;
+
+}
+
+ul {
+   list-style-type: none;
+   text-underline-offset: none;
+
+ }
+
+
+.rightSide {
+  padding-left: 721px;
+  margin-top: -50px;
+    
+}
+.rightSideBackground {
+  margin-left: 765px;
+  margin-top: -80px;
+width: 430px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: indianred;
+}
+
+#maincontent {
+margin-left: 381px;
+background-color: lightgrey;
+width: 1539px;
+height: 800px ;
+}
+
+.bodytext {
+
+margin-left: 50px;
+}
+
+
+
