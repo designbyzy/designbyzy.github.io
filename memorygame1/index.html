@@ -1,0 +1,48 @@
+<!-- define document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- set charset and viewport -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- title -->
+  <title>memory game | kami and zy'azia</title>
+
+  <!-- link external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- link Google Fonts stylesheet for 'Pacifico' font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+</head>
+
+<body>
+  <!-- main container -->
+  <div class="container">
+    <!-- main title -->
+    <h1 class="title">Memory Game</h1>
+
+    <!-- memory grid container -->
+    <div class="grid" id="memory-grid">
+      <!-- cards populated in JavaScript -->
+    </div>
+
+    <!-- reset button -->
+    <button class="resetGame">RESET</button>
+
+    <!-- win overlay -->
+    <div class="overlay_win" id="overlay_win">
+      <!-- congratulations message with emoji -->
+      <h2>🎉 CONGRATULATIONS! YOU WON! 🎉</h2>
+
+      <!-- reset action triggered by JavaScript -->
+      <div id="reset" onclick="resetGame()"></div>
+    </div>
+  </div>
+
+  <!-- link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
