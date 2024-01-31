@@ -1,0 +1,415 @@
+body {
+  margin: 0;
+  background-color: lightgrey
+}
+
+/*side bar edits */
+
+
+/* navigation bar section */
+body {
+  margin: 0;
+  background-color: lightgrey;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: blue;
+}
+
+#sidebar .mainLogo {
+  padding-top: 30px;
+  padding-left: 20px;
+    padding-bottom: 92px;
+    width: 90%;
+    height: 60px;
+/*    background-color: white;*/
+}
+
+.mainLogo{
+   display: flex;
+  align-items: center;
+
+}
+.mainLogo h2{
+   padding-top: 10px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+
+}
+.gbcImage {
+  padding-left: 20px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 381px;
+}
+
+#sidebar ul li {
+  margin: 0;
+}
+
+#sidebar ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+ #sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 381px;
+      height: 100vh;
+      background-color: blue;
+      }
+
+      #content {
+      margin-left: 400px;
+      padding: 20px;
+    }
+
+
+#header {
+ border-radius: 25px;
+  margin-top: 40px;
+  margin-left: 425px;
+  margin-right: 50px;
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
+  white-space: nowrap;
+  color: #009DDC;
+}
+
+h1.header {
+  float: left;
+}
+
+#userName {
+  float: right;
+  margin-top: 100px;
+}
+
+#header  h2 {
+    justify-content: right 300PX; 
+}
+
+#profilePhoto{
+float: left;
+/* display: block;*/
+margin-right: 30px;
+ border-radius: 50%
+}
+
+h3 {
+   display: block;
+    margin-right: 20px;
+}
+
+.subheader  {
+  position: absolute;
+  left: 425px;
+  width: 505px;
+  height: 500px;
+  margin-top: 60px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*background-color:  white;
+  z-index: -1;*/
+}
+/* account balance informartion */
+.leftSide{
+width: 300px;
+ line-height: 0px;
+}
+
+.fall2023 {
+  font-family: 'Source Sans Pro';
+  float: left;
+  width: 60%;
+  z-index: 1;
+}
+
+
+#inform{
+    padding-left: 20px;
+    z-index: 1;
+    font-family: Source Sans Pro;
+}
+
+h2.fall2023{
+  margin-top: 30px;
+  color: #009DDC;
+  width: 250px;
+  z-index: 1;
+}
+
+h3.fall2023{
+  color: #FBB034;
+  padding: 0px;
+  width: 250px;
+  z-index: 1;
+}
+
+h4.fall2023{
+  width: 250px;
+  color: #009DDC;
+  z-index: 1;
+}
+
+
+.studentInfo  {
+  line-height: 5px;
+  color: black;
+  padding-left: 320px;
+  z-index: 1;
+}
+
+/* Underline under the summary of accounts  */
+.subheader p {
+  border-bottom: 1px solid black;
+    height: 16px;
+    width: 505px;
+    z-index: 1;
+
+}
+
+.box {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#maincontent {
+   color: black;
+  margin-left: 450px;
+  width: 455px;
+  height: 600px;
+background-color: lightgrey;
+
+}
+
+
+.bodytext {
+/*    position: static;*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 88px;
+    padding-top: 169px;
+    font-family: 'Source Sans Pro', sans-serif;
+/*    z-index: 1;*/
+}
+
+.bodytext h3 {
+    text-size-adjust: 16px;
+}
+.ColumnTitle{
+margin-right: 15px;
+}
+
+.columnTitle {
+  margin-right: 125px;
+  margin-left: 0px;
+}
+
+
+/*bullet list section*/
+#maincontent ul {
+  list-style-type: none;
+ font-family: 'Source Sans Pro', sans-serif;
+  padding: 3px;
+  padding-left: 5px;
+  margin-top: -358px;
+  position: absolute;
+  color: black;
+  text-decoration: none;
+}
+
+h6{
+  width: 575px;
+    height: 500px;
+    margin-top: -180px;
+    border-radius: 25px;
+    margin-left: -27px;
+    background-color: white;
+}
+
+.descriptionCode {
+ width: 50px;
+}
+
+.OfficalDescription{
+  width: 210px;
+  margin-left: 57px;
+}
+
+.charge {
+  margin-left: 283px;
+}
+
+.payment {
+  margin-left: 360px;
+}
+.balance {
+  margin-left: 445px;
+}
+.sumTab {
+  margin-top: -160px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.sumTab h4 {
+  margin-left: 276px;
+}
+.termCharges {
+margin-top: -120px;
+}
+
+.sumTab .termCredit{
+  margin-left: 355px;
+}
+
+.sumTab .termB {
+margin-left: 451px;
+}
+
+/* right hand tabs of the apge 3/4 tabs */
+.rightSideBar {
+  margin-left: 1055px;
+  margin-top: -609px;
+  width: 416px;
+  position: relative;
+  color: #009DDC;
+}
+.rightSideBar::before {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 425px;
+  height: 110px;
+  position: absolute;
+  top: -29px;
+  left: 0;
+  z-index: -1;
+  border-radius: 25px;
+  padding: 10px;
+}
+.payFees {
+  margin-top: 90px;
+}
+.doc {
+  margin-top: 184px;
+}
+.applyForAwards h4{
+  margin-top: -48px;
+
+}
+.applyForAwards h2 {
+  
+  margin-top: 87px;
+}
+.rightSideBar .middle {
+  background-color: white;
+    width: 425px;
+    height: 110px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: -76px;
+}
+
+.middle {
+  margin-top: 40px;
+}
+
+.rightSideBar::after {
+  content: "";
+  display: block;
+  background-color: white;
+  width: 425px;
+  height: 110px;
+  position: absolute;
+  top: 341px;
+  left: 0;
+  z-index: -1;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+
+.rightSideBar h2 {
+  margin-left: 24px;font-family: 'Source Sans Pro', sans-serif;
+/*  margin-top: 87px;*/
+}
+
+.RightHand {
+ margin-left: 620px;
+    margin-top: -122px;
+    width: 415px;
+
+    height: 120px;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.rightSideBar h4 {
+margin-left: 50px;
+color: black;
+width: 410px;
+padding-bottom: 2px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* lower portion aka header the area to move to the next page */
+
+#payfeesbutton {
+
+margin-top: 20px;
+margin-left: 430px;
+  width: 515px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #009DDC;
+  color: white;
+
+}
+#payfeesbutton h4 {
+
+ margin-left: 45px;
+font-family: 'Source Sans Pro', sans-serif;
+color: black;
+}
+
+#payfeesbutton h2 {
+  margin-left: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+ color: #009DDC;
+/*width: 350px;
+height: 100px;*/
+}
+
+#payfeesbutton a{
+text-decoration:none;
+color: white;
+/*background-color: #009DDC;*/
+}
+
+
+
+
+
+    #userName {
+width: 300px;
+margin-top: -70px;
+    }
